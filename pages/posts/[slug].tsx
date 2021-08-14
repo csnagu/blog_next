@@ -37,7 +37,11 @@ const Post = ({ post, morePosts, preview }: Props) => {
                   {post.title} | {BLOG_TITLE}
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
-                <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+                <meta property="og:url" content={`https://blog.nagu.dev/posts/${post.slug}`} />
+                <meta property="og:title" content={post.title} />
+                <meta property="og:description" content={post.excerpt} />
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:creator" content="@cs_nagu" />
               </Head>
               <PostHeader
                 title={post.title}
