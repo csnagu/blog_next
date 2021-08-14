@@ -1,13 +1,13 @@
 ---
 title: 'checker'
 excerpt: 'excerpt text'
-coverImage: '/assets/blog/checker/cover.jpg'
-date: '2021-08-10T05:35:07.322Z'
+coverImage: '/assets/blog/default/cover.jpg'
+date: '1996-06-26T05:35:07.322Z'
 author:
   name: nagu
   picture: '/assets/blog/authors/nagu.jpg'
 ogImage:
-  url: '/assets/blog/checker/cover.jpg'
+  url: '/assets/blog/default/cover.jpg'
 ---
 
 
@@ -111,4 +111,4 @@ module.exports = getTsundokuNum;
 ```
 
 image
-![Alt Text](/assets/blog/preview/cover.jpg "this is caption")
+![Alt Text](/assets/blog/default/cover.jpg "this is caption")
