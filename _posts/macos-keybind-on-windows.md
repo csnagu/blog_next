@@ -31,12 +31,12 @@ ogImage:
 
 開発環境の移行はさっくり終わった（WSL2＋Dockerすごい。。）けれど、macOSとWindowsの細かい違いがどうにも気になってしまい悶々とすることに。今回は悶々の一つである、macOSで使えていたカーソル移動系のキーバインドをWindows10で使えるようにしたのでメモしておく。
 
-[https://twitter.com/cs_nagu/status/1398646320135503872:embed#MacのCtrl+a,e,f,b,p,nはほんと中毒になる]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">MacのCtrl+a,e,f,b,p,nはほんと中毒になる</p>&mdash; なぐ (@cs_nagu) <a href="https://twitter.com/cs_nagu/status/1398646320135503872?ref_src=twsrc%5Etfw">May 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## CapsLockをF13に上書き
 
-[https://forest.watch.impress.co.jp/library/software/changekey/:title=Change Key] でCapsLockをF13に割り当てる。
+[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/) でCapsLockをF13に割り当てる。
 
 1. Change Keyを管理者権限で起動
 2. CapsLockを選択
@@ -46,10 +46,10 @@ ogImage:
 
 ## カーソル移動系のキーバインドを設定
 
-[https://www.autohotkey.com/:title=AutoHotkey] でF13と各種キーを組み合わせてカーソル移動をセットする（ついでにDeleteや行削除、タブ移動も入れてみた）。
+[AutoHotkey](https://www.autohotkey.com/) でF13と各種キーを組み合わせてカーソル移動をセットする（ついでにDeleteや行削除、タブ移動も入れてみた）。
 
-[https://gist.github.com/6bb68fdb076a9240aba5e352afa66551:embed#MacOSのカーソル移動系キーバインドを再現するautoHotKeyのコンフィグファイル]
-[https://gist.github.com/6bb68fdb076a9240aba5e352afa66551:title=MacOSのカーソル移動系キーバインドを再現するautoHotKeyのコンフィグファイル]
+<script src="https://gist.github.com/csnagu/6bb68fdb076a9240aba5e352afa66551.js"></script>
+
 
 やっつけで書いたのでAutoHotkey的な書き方ではないかもしれないがまずは動くことが大事なので(　ᐕ)
 

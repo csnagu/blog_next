@@ -13,12 +13,10 @@ ogImage:
 ## 背景
 某所で一部Ansibleを使っていくことになって、ほとんど何も知らなかったのでTwitterで何もわからんbotになっていたら教えてもらいました。
 
-[https://twitter.com/cs_nagu/status/1421097609104527363:embed#ansibleなんもわからん]
-[https://twitter.com/cs_nagu/status/1421311537063481346:embed#ansible 入門 おすすめ ［教えて］]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ansibleなんもわからん</p>&mdash; なぐ (@cs_nagu) <a href="https://twitter.com/cs_nagu/status/1421097609104527363?ref_src=twsrc%5Etfw">July 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-↓
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/Iquh26pgZQ">https://t.co/Iquh26pgZQ</a><br><br>こういうのいかがでしょうか</p>&mdash; すぎむら (@sugitk) <a href="https://twitter.com/sugitk/status/1421332570915016706?ref_src=twsrc%5Etfw">July 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[https://twitter.com/sugitk/status/1421332570915016706:embed#@cs\_nagu https://t.co/Iquh26pgZQこういうのいかがでしょうか]
 
 ありがとうございますmm
 

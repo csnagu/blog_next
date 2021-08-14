@@ -15,7 +15,7 @@ ogImage:
 愛用しているbluetooth対応キーボードのキーキャップが汚くなってきたので、いっそのことキーキャップ全とっかえしようということで全とっかえした。
 費用は3,000円。なんとウーバーイーツ２, 3回分くらいで新品の美しさを取り戻せる！お買い得！！
 
-[https://twitter.com/cs_nagu/status/1405468190113603589:embed#来ました無刻印キーキャップ！！（ﾜｸﾜｸ https://t.co/fgZAmchvP5]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">来ました無刻印キーキャップ！！（ﾜｸﾜｸ <a href="https://t.co/fgZAmchvP5">pic.twitter.com/fgZAmchvP5</a></p>&mdash; なぐ (@cs_nagu) <a href="https://twitter.com/cs_nagu/status/1405468190113603589?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 登場人物
 
@@ -38,6 +38,6 @@ ogImage:
 
 一瞬でスタイリッシュ無線キーボードが爆誕！
 
-[https://twitter.com/cs_nagu/status/1405878854980227073:embed#FキーとJキーの突起に感謝🎉]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">FキーとJキーの突起に感謝🎉</p>&mdash; なぐ (@cs_nagu) <a href="https://twitter.com/cs_nagu/status/1405878854980227073?ref_src=twsrc%5Etfw">June 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 無刻印の気が引き締まる感じ良いね٩( ᐛ )و
