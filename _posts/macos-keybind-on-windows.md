@@ -41,7 +41,7 @@ ogImage:
 1. Change Keyを管理者権限で起動
 2. CapsLockを選択
 3. ソフトウェアキーボード右上のScan codeを選択
-4. [http://did2.blog64.fc2.com/blog-entry-349.html:title=0x0064(F13)]を入力
+4. [0x0064(F13)](http://did2.blog64.fc2.com/blog-entry-349.html)を入力
 5. 設定を登録してPCを再起動
 
 ## カーソル移動系のキーバインドを設定

@@ -19,10 +19,10 @@ ogImage:
 
 ## 登場人物
 
-キーボード: [https://www.diatec.co.jp/products/det.php?prod_c=2643:title=Majestouch Convertible 2 Tenkeyless 赤軸（US配列）]
+キーボード: [Majestouch Convertible 2 Tenkeyless 赤軸（US配列）](https://www.diatec.co.jp/products/det.php?prod_c=2643)
 - 赤軸かつBluetoothによる無線接続ができるので大好き
 - Bluetoothの相性や通信環境が悪いとチャタリング地獄になるから注意
-キーキャップ: [https://www.diatec.co.jp/shop/det.php?prod_c=1838:title=Majestouch 交換用キーキャップセット 英語104キー・無刻印]
+キーキャップ: [Majestouch 交換用キーキャップセット 英語104キー・無刻印](https://www.diatec.co.jp/shop/det.php?prod_c=1838)
 - 今回の主役、クールなポーカーフェイス
 
 ## 感想戦

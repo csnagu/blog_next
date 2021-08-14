@@ -24,8 +24,7 @@ ogImage:
 
 ## Ansible トレイルマップとは
 
-[https://www.redhat.com/ja/explore/ansible/trailmap:embed:cite]
-
+https://www.redhat.com/ja/explore/ansible/trailmap
 
 > Ansibleトレイルマップは、Ansibleを学習し活用する過程を旅になぞらえてお伝えする手引書です。道に迷うことなく歩みを進め、Ansibleの世界を満喫しつつ経験を積み、楽しみながら自らの糧にできることを目指しています。
 
@@ -33,7 +32,7 @@ Red Hat から出ている & 完全日本語なので安心して取り組めそ
 
 ## Mt.YAMLとは
 
-[https://www.redhat.com/ja/explore/ansible/trailmap/yaml:title]
+https://www.redhat.com/ja/explore/ansible/trailmap/yaml
 
 > ヤムル山では、Ansibleの基礎、自分自身の作業・タスクをAnsibleで自動化するために参考となる情報源やその活用方法について理解することができます。これからAnsibleを活用して自動化に取り組んでいこうとしている方におすすめの初級者コースです。
 

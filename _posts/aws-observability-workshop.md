@@ -12,7 +12,8 @@ ogImage:
 
 ## 概要
 GWどこにもいけないので退屈していたところ、ネットサーフィンをしててこんな記事が目に入った。
-[https://dev.classmethod.jp/articles/observability-workshop-new-contents-prometheus-grafana-and-opentelemetry/:embed:cite]
+
+https://dev.classmethod.jp/articles/observability-workshop-new-contents-prometheus-grafana-and-opentelemetry
 
 AWSがなんかワークショップを公開してるらしい。しかも3〜4時間くらいで可観測性について一通りさらえるとか。
 僕は監視プラットフォームチームにいるけど現場でトレーシングをどう活用してるのか実感が湧いてなかったのでやってみることにした。
@@ -20,12 +21,14 @@ AWSがなんかワークショップを公開してるらしい。しかも3〜4
 講師もおらず資料だけなので得られることは多くはなさそうだけど、これを機にクラウド（AWS）環境下での可観測性についてどう実現しているのか覗いてみようと思う。
 
 参考にしたワークショップはこちら。
-[https://observability.workshop.aws/ja/:embed:cite]
+
+https://observability.workshop.aws/ja/
 
 ## 気になったところ
 
 ### トレーシング（X-Ray）
-[https://docs.aws.amazon.com/ja_jp/xray/latest/devguide/aws-xray.html:embed:cite]
+
+https://docs.aws.amazon.com/ja_jp/xray/latest/devguide/aws-xray.html
 
 どのコンポーネントとの通信でレイテンシが悪化しているのか（原因特定）にトレーシングが利用できる
 

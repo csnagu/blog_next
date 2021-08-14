@@ -51,7 +51,7 @@ GAS は gist。
 
 ### 構成図
 
-![全体の構成図](./tsundoku-twitter.jpg "全体の構成図")
+![全体の構成図](/assets/blog/tsundoku-twitter/arch.jpg "全体の構成図")
 
 Todoist と GoogleSpreadsheet の間に Google Apps Script（GAS）や IFTTT が抜けているんだけど図の修正が面倒なので割愛。
 
