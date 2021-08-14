@@ -24,6 +24,10 @@ li.task-list-item {
     list-style: none
 }
 
+a {
+    color: #999;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
