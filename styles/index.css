@@ -2,24 +2,31 @@
 
 /* Write your own custom base styles here */
 
+
 /* Start purging... */
+
 @tailwind components;
+
 /* Stop purging. */
 
+
 /* Write you own custom component styles here */
+
 ul {
     list-style: disc;
     list-style-type: disc;
-    margin:0 0 0 1em;
+    margin: 0 0 0 1em;
 }
 
 ul ul {
     list-style: circle;
     list-style-type: circle;
-    margin:0 0 0 1.2em;
+    margin: 0 0 0 1.2em;
 }
 
+
 /* For GFM */
+
 li.task-list-item {
     list-style: none
 }
@@ -28,8 +35,26 @@ a {
     color: #999;
 }
 
+
 /* Start purging... */
+
 @tailwind utilities;
+
 /* Stop purging. */
 
+
 /* Your own custom utilities */
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    background-color: rgb(241, 241, 241);
+}
+
+th,
+td {
+    padding: 0.25em 1em;
+    border: solid 1px #999999;
+}
