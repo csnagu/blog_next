@@ -75,13 +75,13 @@ Todoist と GoogleSpreadsheet の間に Google Apps Script（GAS）や IFTTT が
 ### OAuth 認証と TwitterAPI との戦い
 
 公式リファレンスを読めば全部解決！
-Twitter 公式リファレンス - Authentication: [https://developer.twitter.com/en/docs/basics/authentication/overview](https://developer.twitter.com/en/docs/basics/authentication/overview)
+Twitter 公式リファレンス - Authentication: [https://developer.twitter.com/en/docs/authentication/overview](https://developer.twitter.com/en/docs/authentication/overview)
 
 するほどの理解力がなかったので適当にググる。
 npm oauth1.0a などのキーワードでググるとちょうど良さそうなのがあった。
 ゆくゆくは AWS Lambda に乗せて走らせようとここらへんで思い立ったので、言語は node.js で書くことにした。
 
-[www.npmjs.com](https://www.npmjs.com/package/oauth-1.0a)
+https://www.npmjs.com/package/oauth-1.0a
 
 あとは通信だが、昔使った[axios](https://github.com/axios/axios)を今回も使う。
 
@@ -109,7 +109,7 @@ Lambda 上で動くのを確認したら、Lambda の Designer 欄から「ト�
 ここは非常にハマったので参考資料を適宜参照しよう。
 
 - 参考
-  - [https://developer.twitter.com/en/docs/basics/authentication/overview](https://developer.twitter.com/en/docs/basics/authentication/overview)
+  - [https://developer.twitter.com/en/docs/authentication/overview](https://developer.twitter.com/en/docs/authentication/overview)
   - [GitHub Actions を使って AWS Lambda へ自動デプロイ (詳説＋デモ手順付き ver) - Qiita](https://qiita.com/homines22/items/412d4e81b24804d75205)
   - [Serverless Framework で AWS Lambda をデプロイ - Qiita](https://qiita.com/t_okkan/items/6843afba84d684068341)
   - [Serverless Framework Documentation](https://serverless.com/framework/docs/)

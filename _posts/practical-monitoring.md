@@ -31,4 +31,4 @@ Mike Julian 著、松浦 隼人 訳な『入門 監視 ――モダンなモニ�
 
 もう少し実務を積んでから読み返すことで新たな気付きがありそうな気がとてもしている。定期的に読み直していきたい。
 
-[www.oreilly.co.jp](https://www.oreilly.co.jp/books/9784873118642/)
+https://www.oreilly.co.jp/books/9784873118642/
