@@ -17,11 +17,11 @@ Twitter プロフィールに消化度合いを表示させると緊張感が出
 
 本エントリで出てくるコードは GitHub で管理している。
 
-[github.com](https://github.com/csnagu/pile-up-twitter)
+https://github.com/csnagu/pile-up-twitter
 
 GAS は gist。
 
-[https://gist.github.com/csnagu/3f0e7f2a7fcf5ace1262f4c0f78e0212](https://gist.github.com/csnagu/3f0e7f2a7fcf5ace1262f4c0f78e0212)
+https://gist.github.com/csnagu/3f0e7f2a7fcf5ace1262f4c0f78e0212
 
 ## 動機
 
@@ -64,10 +64,6 @@ Todoist と GoogleSpreadsheet の間に Google Apps Script（GAS）や IFTTT が
 
 - 非常に参考にしたサイト
   - [Todoist（無料プラン）で完了したタスクを日報に記録する方法。IFTTT+GoogleAppsScript(GAS)+Google ドキュメント | internetthingy](https://internetthingy.com/todoist-ifttt-gas-63.html)
-- GoogleSpreadsheet に対応させたコード
-  - [https://gist.github.com/csnagu/3f0e7f2a7fcf5ace1262f4c0f78e0212](https://gist.github.com/csnagu/3f0e7f2a7fcf5ace1262f4c0f78e0212)
-- GoogleSpreadsheet の行数を取得するコード
-  - [https://github.com/csnagu/pile-up-twitter/blob/master/getReadBooksNum.js](https://github.com/csnagu/pile-up-twitter/blob/master/getReadBooksNum.js)
 
 一度積読を Todoist でリスト化してしまえば、読み終わったものを完了にすることであとは自動で回ってくれる。
 賢い。
@@ -84,9 +80,6 @@ npm oauth1.0a などのキーワードでググるとちょうど良さそうな
 https://www.npmjs.com/package/oauth-1.0a
 
 あとは通信だが、昔使った[axios](https://github.com/axios/axios)を今回も使う。
-
-- TwitterAPI を叩いてプロフィールを更新するコード
-  - [https://github.com/csnagu/pile-up-twitter/blob/master/updateTwitterProfile.js](https://github.com/csnagu/pile-up-twitter/blob/master/updateTwitterProfile.js)
 
 ### Lambda で定期実行する - AWS Lambda と CloudWatch
 
@@ -109,7 +102,6 @@ Lambda 上で動くのを確認したら、Lambda の Designer 欄から「ト�
 ここは非常にハマったので参考資料を適宜参照しよう。
 
 - 参考
-  - [https://developer.twitter.com/en/docs/authentication/overview](https://developer.twitter.com/en/docs/authentication/overview)
   - [GitHub Actions を使って AWS Lambda へ自動デプロイ (詳説＋デモ手順付き ver) - Qiita](https://qiita.com/homines22/items/412d4e81b24804d75205)
   - [Serverless Framework で AWS Lambda をデプロイ - Qiita](https://qiita.com/t_okkan/items/6843afba84d684068341)
   - [Serverless Framework Documentation](https://serverless.com/framework/docs/)

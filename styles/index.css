@@ -12,15 +12,25 @@
 
 /* Write you own custom component styles here */
 
-ul {
+ul li {
     list-style: disc;
     list-style-type: disc;
     margin: 0 0 0 1em;
 }
 
-ul ul {
+ul li li {
     list-style: circle;
     list-style-type: circle;
+    margin: 0 0 0 1.2em;
+}
+
+ol li {
+    list-style-type: decimal;
+    margin: 0 0 0 1em;
+}
+
+ol li li {
+    list-style-type: lower-roman;
     margin: 0 0 0 1.2em;
 }
 

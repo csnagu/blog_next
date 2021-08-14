@@ -53,18 +53,18 @@ const Post = ({ post, morePosts, preview }: Props) => {
               <PostBody content={post.content} />
             </article>
             <div className="flex justify-center pb-10">
-            <FacebookShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
-              <FacebookIcon size={32} round={true} />
-            </FacebookShareButton>
-            <LinkedinShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
-              <LinkedinIcon size={32} round={true} />
-            </LinkedinShareButton>
-            <TwitterShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
-              <TwitterIcon size={32} round={true} />
-            </TwitterShareButton>
-            <HatenaShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
-              <HatenaIcon size={32} round={true} />
-            </HatenaShareButton>
+              <FacebookShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
+                <FacebookIcon size={32} round={true} />
+              </FacebookShareButton>
+              <LinkedinShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
+                <LinkedinIcon size={32} round={true} />
+              </LinkedinShareButton>
+              <TwitterShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
+                <TwitterIcon size={32} round={true} />
+              </TwitterShareButton>
+              <HatenaShareButton url={`https://blog.nagu.dev/${post.slug}`} className="mx-3">
+                <HatenaIcon size={32} round={true} />
+              </HatenaShareButton>
             </div>
           </>
         )}

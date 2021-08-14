@@ -12,17 +12,21 @@ ogImage:
 
 ## やること
 
-- macOSのemacsライクなキーバインドのうち、カーソル移動系のキーバインドをWindows10で再現する
+macOSのemacsライクなキーバインドのうち、カーソル移動系のキーバインドをWindows10で再現する。
 
 ざっくりやっていること
+
 1. Change KeyでCapsLockキーをF13に上書き
 2. AutoHotkeyでF13を使ったカーソル移動系キーバーインドを設定する
 3. vscodeでキーバインドを使えるようにする
 
 元ネタ（参考）
-- [https://qiita.com/riekure/items/49b941fa5159f9948313:title]
-- [http://did2.blog64.fc2.com/blog-entry-349.html:title]
-- [https://kokufu.blogspot.com/2019/05/vscode-ctrl-ctrlcapslock.html:title]
+
+https://qiita.com/riekure/items/49b941fa5159f9948313
+
+http://did2.blog64.fc2.com/blog-entry-349.html
+
+https://kokufu.blogspot.com/2019/05/vscode-ctrl-ctrlcapslock.html
 
 
 ## 背景
