@@ -18,7 +18,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
     />
   )
   return (
-    <div className="sm:mx-0">
+    <div className="flex flex-col items-center">
       {slug ? (
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a aria-label={title}>{image}</a>
