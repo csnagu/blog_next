@@ -59,7 +59,7 @@ while True:
 
 <details><summary>出力例</summary>
 
-```
+```sh-session
 # サイズベース
 $ python make_logs.py
 $ ls -l /tmp/
@@ -70,7 +70,7 @@ total 24
 ...
 ```
 
-```
+```sh-session
 # 時間ベース
 $ python make_logs.py
 $ ls -l /tmp/
@@ -121,7 +121,7 @@ logger.debug('debug')
 
 <details><summary>出力例</summary>
 
-```
+```sh-session
 $ python make_logs.py
 $ cat /tmp/app.log
 2020-08-15 14:30:47,526 [make_logs.py:23] CRITICAL critical
@@ -130,7 +130,7 @@ $ cat /tmp/app.log
 2020-08-15 14:30:47,526 [make_logs.py:26] INFO     info
 ```
 
-```
+```sh-session
 $ python make_logs.py --debug
 $ cat /tmp/app.log
 2020-08-15 14:31:29,198 [make_logs.py:23] CRITICAL critical
