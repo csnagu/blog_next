@@ -57,7 +57,7 @@ Todoist と GoogleSpreadsheet の間に Google Apps Script（GAS）や IFTTT が
 
 ## 仕組み
 
-### 積読と読了の管理・取得 - Todosit, GoogleSpreadsheet の使い分け
+### 積読と読了の管理・取得
 
 積読リストは適当なプロジェクトに分けておく（Project ID を後で使う）。
 積読リストと読了リストの管理が別のアプリでややこしいが、Todoist の無料プランでは一日に完了にしたタスクを取得できないようなので割り切った。Todoist と GoogleSpreadsheet は GAS を書いて IFTTT で連携させておく。
@@ -68,7 +68,7 @@ Todoist と GoogleSpreadsheet の間に Google Apps Script（GAS）や IFTTT が
 一度積読を Todoist でリスト化してしまえば、読み終わったものを完了にすることであとは自動で回ってくれる。
 賢い。
 
-### OAuth 認証と TwitterAPI との戦い
+### 認証と twitter api との戦い
 
 公式リファレンスを読めば全部解決！
 Twitter 公式リファレンス - Authentication: [https://developer.twitter.com/en/docs/authentication/overview](https://developer.twitter.com/en/docs/authentication/overview)
@@ -81,7 +81,7 @@ https://www.npmjs.com/package/oauth-1.0a
 
 あとは通信だが、昔使った[axios](https://github.com/axios/axios)を今回も使う。
 
-### Lambda で定期実行する - AWS Lambda と CloudWatch
+### lambda で定期実行する
 
 試行錯誤の末、ローカルでクラウド環境で走らせる。
 日に 1 回実行できればいいくらい、かつ、ローカルにファイルが必要ないため今回は Lmbda を選択した。

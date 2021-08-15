@@ -12,6 +12,7 @@ import { BLOG_TITLE } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
 import { FacebookIcon, FacebookShareButton, HatenaIcon, HatenaShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share'
+import ReactMarkdownHeading from 'react-markdown-heading'
 
 type Props = {
   post: PostType
@@ -50,6 +51,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 date={post.date}
                 author={post.author}
               />
+              <ReactMarkdownHeading markdown={post.markdown} hyperlink={true} />
               <PostBody content={post.content} />
             </article>
             <div className="flex justify-center pb-10">
@@ -91,6 +93,7 @@ export async function getStaticProps({ params }: Params) {
     'ogImage',
     'coverImage',
   ])
+  const markdown = post.content
   const content = await markdownToHtml(post.content || '')
 
   return {
@@ -98,6 +101,7 @@ export async function getStaticProps({ params }: Params) {
       post: {
         ...post,
         content,
+        markdown,
       },
     },
   }

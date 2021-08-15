@@ -11,23 +11,23 @@ ogImage:
 ---
 
 
-# H1
+# h1
 
 hoge
 
-## H2
+## h2
 
 fuga
 
-### H3
+### h3
 
 piyo
 
-#### H4
+#### h4
 
 waro
 
-##### H5
+##### ヘッダー5
 
 sori
 
@@ -50,8 +50,9 @@ _Italic_
 
 Links
 
-- [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-- <https://en.wikipedia.org/wiki/Salted_duck_egg>
+[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg)
+
+https://en.wikipedia.org/wiki/Salted_duck_egg
 
 引用
 

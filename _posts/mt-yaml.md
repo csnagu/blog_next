@@ -20,7 +20,7 @@ ogImage:
 
 ありがとうございますmm
 
-## Ansible トレイルマップとは
+## ansible トレイルマップとは
 
 https://www.redhat.com/ja/explore/ansible/trailmap
 
@@ -28,18 +28,18 @@ https://www.redhat.com/ja/explore/ansible/trailmap
 
 Red Hat から出ている & 完全日本語なので安心して取り組めそう。
 
-## Mt.YAMLとは
+## ヤムル山とは
 
 https://www.redhat.com/ja/explore/ansible/trailmap/yaml
 
 > ヤムル山では、Ansibleの基礎、自分自身の作業・タスクをAnsibleで自動化するために参考となる情報源やその活用方法について理解することができます。これからAnsibleを活用して自動化に取り組んでいこうとしている方におすすめの初級者コースです。
 
-## Mt.YAMLをやってみたときの状態
+## ヤムル山をやってみたときの状態
 * 業務でChefを使った構成管理を2年弱やってる
 * YAMLﾁｮｯﾄﾜｶﾙ
 * Ansibleなんもわからん
 
-## Mt.YAMLを通して得られたもの
+## ヤムル山を通して得られたもの
 
 * Ansibleの簡単な用語や構成
 * 変数、Loop、条件分岐、テンプレート、Roleなどの基本文法
@@ -48,7 +48,7 @@ https://www.redhat.com/ja/explore/ansible/trailmap/yaml
 
 ## 感想戦
 
-### STEP1, 2, 3
+### step 1-2-3
 
 Ansibleが解決する課題。Chefなどの他の構成管理ツールと概ね同じにみえる。
 STEP2の「Ansible 自動化ジャーニー」は自動化のレベルがまとめられているので印象に残ってる。
@@ -61,7 +61,7 @@ Playbook、moduleなどの用語が整理されていて助かりました。Ans
 
 ![Ansible Mt.YAML](https://www.redhat.com/cms/managed-files/step3_fig2.png 'Ansible Mt.YAML')
 
-### STEP4
+### step 4
 
 実際にAnsibleをハンズオンっぽくPlaybookを書いて実行してみるターン。
 
@@ -75,7 +75,7 @@ Chef cookbookとかの構成管理ツール経験があると複雑なことし�
 
 予め各種ディレクトリや *.yml ファイルが作られてるためtabキーの予測が効いてストレスなく進められた。細かい気配りに感謝。
 
-### STEP5, 6
+### step 5-6
 
 Ansibleを使っていくにあたってのノウハウがまとめられていた。必要になったときに読み返すと良さそう。
 

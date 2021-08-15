@@ -104,7 +104,7 @@ tacx neo smart というスマートトレーナーが以前から欲しかっ�
 
 ちなみに手放しを考えると中古で買うもしくは譲ってもらうが一番安全に思う。
 
-## Zwift（iPad 9.7inch）をやってみる
+## zwift（iPad 9.7inch）をやってみる
 
 tacx neo smart はパワーセンサやケイデンスセンサを内蔵していて、かつ通信規格は Bluetooth と Ant+にも対応している。
 なので Bluetooth が利用できる iPad や iPhone、デスクトップパソコン といったデバイスでは Ant+レシーバーがなくても普通に連携できる。

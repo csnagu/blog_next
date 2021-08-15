@@ -11,6 +11,7 @@ type PostType = {
     url: string
   }
   content: string
+  markdown: string
 }
 
 export default PostType
