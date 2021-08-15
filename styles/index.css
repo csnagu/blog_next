@@ -52,6 +52,23 @@ ol li li {
     margin: 0 0 0 1.2em;
 }
 
+blockquote {
+    background-color: #ececec;
+    font-size: 0.8em;
+    font-style: italic;
+    position: relative;
+    border-radius: 1em;
+    padding: 0.25em 1em;
+}
+
+blockquote cite {
+    display: block;
+    padding-right: 1em;
+    font-size: 0.8rem;
+    text-align: right;
+    color: #aaa;
+}
+
 
 /* For GFM */
 
