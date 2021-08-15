@@ -12,6 +12,24 @@
 
 /* Write you own custom component styles here */
 
+h2,
+h3 {
+    font-weight: bold;
+}
+
+article h2 {
+    padding: 0 0.5em;
+    border-left: solid 0.25em #999999;
+}
+
+article h3 {
+    margin-right: 2em;
+    text-decoration: underline #999999;
+    text-decoration-thickness: 2px;
+    text-decoration-style: double;
+    text-underline-offset: 0.25em;
+}
+
 ul li {
     list-style: disc;
     list-style-type: disc;
