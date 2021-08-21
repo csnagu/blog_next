@@ -20,7 +20,7 @@ type Props = {
   preview?: boolean
 }
 
-const Post = ({ post, morePosts, preview }: Props) => {
+const Post = ({ post, preview }: Props) => {
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
@@ -54,7 +54,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
               <ReactMarkdownHeading markdown={post.markdown} hyperlink={true} />
               <PostBody content={post.content} />
             </article>
-            <div className="flex justify-center pb-10">
+            <div id="sns-share" className="flex justify-center pb-10">
               <FacebookShareButton url={`https://blog.nagu.dev/posts/${post.slug}`} className="mx-3">
                 <FacebookIcon size={32} round={true} />
               </FacebookShareButton>
