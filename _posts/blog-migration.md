@@ -1,13 +1,13 @@
 ---
 title: 'はてなブログからNext.js + Vercel + GitHubに移行した'
 excerpt: 'はてなブログからNext.js + Vercel + GitHubに移行した'
-coverImage: '/assets/blog/default/cover.jpg'
+coverImage: '/assets/blog/blog-migration/lighthouse_result.jpg'
 date: '2021-08-22'
 author:
   name: nagu
   picture: '/assets/blog/authors/nagu.jpg'
 ogImage:
-  url: '/assets/blog/default/cover.jpg'
+  url: '/assets/blog/blog-migration/lighthouse_result.jpg'
 ---
 
 ## 引っ越し理由
@@ -30,7 +30,7 @@ Next.js + Vercel + GitHub にした理由は大きく下記の3つ。
 ## 作り出しから現在まで
 
 - Next.js examples の[ブログスターターキット](https://github.com/vercel/next.js/tree/canary/examples/blog-starter-typescript)で雛形作成
-- remark-gfmやremark-link-card、remark-prismを入れたりして体裁の整え
+- gfm対応やprism.js、web fontを使ったりして体裁の整え
   - 一部バグってるから対応検討中
 - SNS共有ボタンを[設置](https://github.com/csnagu/blog_next/commit/057a766c47b04f629dd3062a150a5dc1139ac3ef)
   - react-share がめちゃ便利
@@ -93,4 +93,4 @@ Gatsby.js使ってて「あれ、ブログエントリを書くべきなのに�
 
 ---
 
-ブログに書き出す作業が大切だと思うから、機能いじってばかりじゃなくてちゃんとエントリを書いていきます ٩( ᐛ )و
+気持ちを新たにエントリ書いていきます ٩( ᐛ )و
