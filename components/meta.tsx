@@ -37,7 +37,7 @@ const Meta = () => {
         content={`気が向いたときになにかを書くブログ`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Noto+Serif+JP:wght@400&display=swap" rel="stylesheet" />
     </Head>
   )
 }

@@ -33,7 +33,7 @@ const Post = ({ post, preview }: Props) => {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <article className="mb-12">
               <Head>
                 <title>
                   {post.title} | {BLOG_TITLE}
@@ -51,7 +51,9 @@ const Post = ({ post, preview }: Props) => {
                 date={post.date}
                 author={post.author}
               />
-              <ReactMarkdownHeading markdown={post.markdown} hyperlink={true} />
+              <div id="toc" className="max-w-4xl mx-auto border-t-2 border-b-2 py-4 pl-12">
+                <ReactMarkdownHeading markdown={post.markdown} hyperlink={true} />
+              </div>
               <PostBody content={post.content} />
             </article>
             <div id="sns-share" className="flex justify-center pb-10">

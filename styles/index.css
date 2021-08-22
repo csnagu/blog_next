@@ -12,69 +12,6 @@
 
 /* Write you own custom component styles here */
 
-h2,
-h3 {
-    font-weight: bold;
-}
-
-article h2 {
-    padding: 0 0.5em;
-    border-left: solid 0.25em #999999;
-}
-
-article h3 {
-    margin-right: 2em;
-    text-decoration: underline #999999;
-    text-decoration-thickness: 2px;
-    text-decoration-style: double;
-    text-underline-offset: 0.25em;
-}
-
-ul li {
-    list-style: disc;
-    list-style-type: disc;
-    margin: 0 0 0 1em;
-}
-
-ul li li {
-    list-style: circle;
-    list-style-type: circle;
-    margin: 0 0 0 1.2em;
-}
-
-ol li {
-    list-style-type: decimal;
-    margin: 0 0 0 1em;
-}
-
-ol li li {
-    list-style-type: lower-roman;
-    margin: 0 0 0 1.2em;
-}
-
-code {
-    padding: 0 0.25em;
-    background-color: #f5f5f5;
-    border-radius: 1px;
-}
-
-blockquote {
-    color: #999999;
-    font-size: 0.9em;
-    font-weight: bold;
-    margin: 0 2.5em;
-    padding: 0 1em;
-    border-left: solid 0.25em #999999;
-}
-
-blockquote cite {
-    display: block;
-    color: #999999;
-    font-size: 0.9rem;
-    padding-right: 1em;
-    text-align: right;
-}
-
 
 /* For GFM */
 
@@ -84,6 +21,22 @@ li.task-list-item {
 
 a {
     color: #666;
+}
+
+
+/* For Table of Contents */
+
+#toc ul {
+    @apply list-decimal
+}
+
+#toc li {
+    @apply my-1
+}
+
+#toc li li {
+    margin-left: 1em;
+    list-style: lower-alpha
 }
 
 
