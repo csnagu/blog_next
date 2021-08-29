@@ -1,10 +1,9 @@
 import { AppProps } from 'next/app'
 import '../styles/index.css'
 import '../styles/prism-okaidia.css'
-import '../styles/link-card.css'
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import * as gtag  from '../lib/gtag'
+import * as gtag from '../lib/gtag'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   // Google Analyticsをページ遷移時にも対応させる
