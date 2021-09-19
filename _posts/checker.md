@@ -1,5 +1,5 @@
 ---
-title: 'checker'
+title: '[draft] checker'
 excerpt: 'excerpt text'
 coverImage: '/assets/blog/default/cover.jpg'
 date: '1996-06-26T05:35:07.322Z'
