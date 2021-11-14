@@ -12,7 +12,6 @@ import { BLOG_TITLE } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
 import { FacebookIcon, FacebookShareButton, HatenaIcon, HatenaShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share'
-import ReactMarkdownHeading from 'react-markdown-heading'
 
 type Props = {
   post: PostType
@@ -51,9 +50,6 @@ const Post = ({ post, preview }: Props) => {
                 date={post.date}
                 author={post.author}
               />
-              <div id="toc" className="max-w-4xl mx-auto border-t-2 border-b-2 py-4 pl-12">
-                <ReactMarkdownHeading markdown={post.markdown} hyperlink={true} />
-              </div>
               <PostBody content={post.content} />
             </article>
             <div id="sns-share" className="flex justify-center pb-10">

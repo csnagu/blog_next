@@ -1,13 +1,13 @@
 ---
-title: 'python3のloggingモジュールを使ってサイズ・時間別にログローテートする'
-excerpt: 'python3のloggingモジュールを使ってサイズ・時間別にログローテートする'
-coverImage: '/assets/blog/default/cover.jpg'
-date: '2020-08-15'
+title: "python3のloggingモジュールを使ってサイズ・時間別にログローテートする"
+excerpt: "python3のloggingモジュールを使ってサイズ・時間別にログローテートする"
+coverImage: "/assets/blog/default/cover.jpg"
+date: "2020-08-15"
 author:
   name: nagu
-  picture: '/assets/blog/authors/nagu.jpg'
+  picture: "/assets/blog/authors/nagu.jpg"
 ogImage:
-  url: '/assets/blog/default/cover.jpg'
+  url: "/assets/blog/default/cover.jpg"
 ---
 
 ## 概要
