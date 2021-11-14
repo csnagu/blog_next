@@ -1,5 +1,5 @@
 ---
-title: "Siri を使って Todoist に快適にタスクを作成する"
+title: "Siri を使って Todoist にタスクを作成する"
 excerpt: "Siri を使って日本語による音声入力で Todoist にタスクを追加する。"
 coverImage: "/assets/blog/default/cover.jpg"
 date: "2021-11-14"
