@@ -8,23 +8,22 @@ author:
   picture: "/assets/blog/authors/nagu.jpg"
 ogImage:
   url: "/assets/blog/default/cover.jpg"
-marp: true
 ---
 
 ## なにこれ
 
 ここ 1、2 週間ほどテスト関連の話をよく聞いていて、そういえば Front-end ってどんなテストやっているのか全然知らなかったから調べてみた。
 
+前提
+
+- フロントエンドのプロダクションコードを書いてない
+
 ## モチベーション
 
 - フロントエンドのテストについて知りたい
 - 最近の動向を知りたい
 
----
-
 ## テストの話
-
----
 
 ### フロントエンドの単体テスト？
 
@@ -34,8 +33,6 @@ marp: true
 密結合なものは結合テストをする。
 
 https://postd.cc/a-response-to-why-most-unit-testing-is-waste/
-
----
 
 ### 単体テストが書けるような設計・実装をする
 
@@ -48,8 +45,6 @@ https://postd.cc/a-response-to-why-most-unit-testing-is-waste/
   - 単体テストが書けるような設計を目指すとよい
 
 https://mizchi.hatenablog.com/entry/2018/03/13/214755
-
----
 
 ### UI 変更に耐えうるテストは難しい
 
@@ -68,16 +63,13 @@ http://w3q.jp/t/9438
 
 https://meetup-jp.toast.com/1550
 
----
-
-# まとめ
+## まとめ
 
 - ロジックをできるかぎり切り出す
   - 切り出したロジックに対しては単体テストをする
 - デザイン崩れを検知するにはビジュアルリグレッションテスト
   - デザインを変更するとテストの修正も必要になるから程々に
-
----
+  - デザイナが目で確認するのが良い
 
 ### 悩んだら読むと良さそうなサイト
 
@@ -87,9 +79,5 @@ https://meetup-jp.toast.com/1550
   - テスト界隈で有名な人らしい。TDD の翻訳者
 - https://postd.cc/frontend-testing-is-for-everyone/
   - 色々な種類のテストと、テスト範囲、メジャーなツールが紹介されている
-
----
-
----
 
 ほいでは ٩( ᐛ )و
