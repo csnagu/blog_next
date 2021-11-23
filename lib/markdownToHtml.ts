@@ -1,6 +1,5 @@
 import { remark } from 'remark'
 import html from 'remark-html'
-// import prism from 'remark-prism'
 import gfm from 'remark-gfm'
 import remarkSlug from 'remark-slug'
 import remarkToc from 'remark-toc'
