@@ -2,7 +2,7 @@
 title: "Reactのチュートリアルをやってみる"
 excerpt: "2021年の暮れにReactチュートリアルをやってみた話"
 coverImage: "/assets/blog/blog-migration/lighthouse_result.jpg"
-date: "2021-11-21"
+date: "2021-11-23"
 author:
   name: nagu
   picture: "/assets/blog/authors/nagu.jpg"
