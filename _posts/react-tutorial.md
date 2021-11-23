@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/nagu.jpg"
 ogImage:
   url: "/assets/blog/blog-migration/lighthouse_result.jpg"
+marp: true
 ---
 
 ## なにこれ
@@ -29,7 +30,7 @@ React のチュートリアルをやってみて知見とかをまとめる。
 
 ## React とは
 
-- UI を構築するための宣言型の JS ライブラリ
+- UI を構築するための宣言型\*1 の JS ライブラリ
 - UI をコンポーネントという小さく独立した部品を使って組み立てる
 - JSX 構文を使って記述する
   - `<div />` は `React.createElement('div')` に変換される
@@ -45,11 +46,14 @@ render() {
 }
 ```
 
+\*1 宣言型（宣言的） → [宣言的 UI が何か分からなかったので調べてみた
+](https://zenn.dev/arei/articles/f59e263aa3edf2)
+
 ## ステートとステートのリフトアップ
 
-- state は上位コンポーネントから下位コンポーネントに渡せる
-- 上位コンポーネントで state と state を操作する関数を定義して、回コンポーネントへ渡すことをステートのリフトアップという
-  - リファクタリングでよく使うらしい。たしかに state を集約したいときに便利そうだ
+- state は上位コンポーネントから下位コンポーネントに渡せるしその逆もできる
+- 下位コンポーネントの state を上位コンポーネントで再定義し、 state を操作する関数を定義して、下位コンポーネントへ渡すことをステートのリフトアップという
+  - リファクタリングでよく使うらしい。state を集約したいときに便利そうだ
 
 ## 関数コンポーネント
 
@@ -59,24 +63,21 @@ render() {
 class Square extends React.Component {
   render() {
     return (
-      <button className="square" onClick={() => this.props.onClick()}>
-        {this.props.value}
-      </button>
+      <button className="square" onClick={...}>{this.props.value}</button>
     );
   }
 }
-// ↓関数コンポーネント化↓
+```
+
+↓ 関数コンポーネント化
+
+```js
 function Square(props) {
   return (
-    <button className="square" onClick={props.onClick}>
-      {props.value}
-    </button>
+    <button className="square" onClick={...}>{props.value}</button>
   );
 }
 ```
-
-- Square コンポーネントは Button をレンダリングするが自身の state を持たない
-- `function` で表現できる
 
 ## React 要素の受け渡し
 
@@ -118,3 +119,6 @@ render() {
 <li key="Alexa">Alexa: 7 tasks left</li>
 <li key="Ben">Ben: 5 tasks left</li>
 ```
+
+react がよしなにやってくれてるところが多くてハマりどころが多そうなイメージ。  
+とりあえず触ってみたって感じだった。٩( ᐛ )و
