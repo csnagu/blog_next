@@ -16,7 +16,6 @@ marp: true
 React のチュートリアルをやってみて知見とかをまとめる。
 
 - https://ja.reactjs.org/tutorial/tutorial.html
-- https://ja.reactjs.org/docs/hello-world.html
 
 前提
 
