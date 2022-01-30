@@ -1,6 +1,6 @@
 ---
 title: "RubyでネストしているHashをいい感じにmergeする"
-excerpt: "深くネストしているHashデータをRubyのHash.mergeでmergeすると深い階層が上書きされてしまうので対応を模索した話"
+excerpt: "深くネストしているHashデータをRubyのHash#mergeでmergeすると深い階層が上書きされてしまうので対応を模索した話"
 coverImage: "/assets/blog/default/cover.jpg"
 date: "2022-01-30"
 author:
@@ -125,7 +125,11 @@ require 'deep_merge'
 nested_hash_data.deep_merge(ex_data)
 ```
 
-Ruby on Rails ではデフォルトで使えるっぽいけど Ruby だと gem を別途入れないとネストされた Hash データをいい感じに merge できないみたい。
+gem を別途入れないとネストされた Hash データをいい感じに merge できないみたい。
+
+## 余談
+
+今回は deep_merge を見ていたけど activesupport を入れると[いろいろと便利なメソッド](https://railsguides.jp/active_support_core_extensions.html)が提供されていそう。
 
 ## 環境
 
