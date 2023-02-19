@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/posts", "destination": "https://nagu.dev/blog/articles", "permanent": true }
+    { "source": "/posts/:path*", "destination": "https://nagu.dev/blog/articles/:path*", "permanent": true },
+    { "source": "/", "destination": "https://nagu.dev/blog/", "permanent": true }
   ]
 }
